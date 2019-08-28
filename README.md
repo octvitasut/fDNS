@@ -1,1 +1,2 @@
-# dns_solution
+HOW TO BUILD PRODUCTION DNS SOLUTION
+---
