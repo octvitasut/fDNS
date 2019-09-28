@@ -23,3 +23,9 @@ With VM with configuraton 8C.8R.300D can achieve:
 
 # Reliability
 - Stress test with highest performance in 1 months without any problems
+
+# Supported versions
+- 6C.6R.120D 100kqps
+- 8C.8R.180D 150kqps
+- 10C.10R.240D 200kqps
+- 12C.12R.300D 300kqps - 500kqps
