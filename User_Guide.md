@@ -15,7 +15,7 @@ dig @8.8.8.8 github.com.vn         #Test query tư Google DNS
 
 Kiểm tra kết quả
 
- > ;; Got answer:
+> ;; Got answer:
 > ;; ->>HEADER<<- opcode: QUERY, **status: NOERROR**, id: 7572
 > ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
