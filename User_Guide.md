@@ -61,6 +61,7 @@ Thêm, sửa, xóa zones, domains trên portal giám sát
 - Thêm domain (record) trong zone đã tạo:
 Thêm ACL List
 ![alt text][ACL_LIST]
+
 [ACL_LIST]: https://github.com/octvitasut/fDNS/blod/master/common/images/acl_list.png "ACL"
 
 Lựa chọn All server để tạo cấu hình cho toàn bộ server DNS được quản lý hay chọn từng server để tạo cấu hình riêng cho từng server
@@ -68,15 +69,18 @@ Chọn add new để tạo một ACL mới:
 Nhập tên ACL và ấn save để tạo ACL
 
 ![alt text][ACL_LIST_NEW]
+
 [ACL_LIST_NEW]: https://github.com/octvitasut/fDNS/blod/master/common/images/acl_list_add_new.png "ACL add new"
 
 Thêm IP vào ACL bằng cách chọn dâu cộng ở tên ACL
 ![alt text][ACL_LIST_ADD_IP]
+
 [ACL_LIST_ADD_IP]: https://github.com/octvitasut/fDNS/blod/master/common/images/acl_list_add_IP1.png "ACL add IP"
 
 Nhập các list IP vào Matched Address List để add IP vào acl
 Nhấn Save để lưu lại
 ![alt text][ACL_LIST_ADD_IP2]
+
 [ACL_LIST_ADD_IP2]: https://github.com/octvitasut/fDNS/blod/master/common/images/acl_list_add_IP2.png "ACL add IP"
 
 Setting Tsig key
@@ -87,12 +91,14 @@ Chọn Menu key để thực hiện setting tsig key
 - Secret: Giá trị key (nhập value vào đây)
 
 ![alt text][TSIG_KEY]
+
 [TSIG_KEY]: https://github.com/octvitasut/fDNS/blod/master/common/images/acl_list_add_IP2.png "add tsig key"
 
 Cấu hình các option cho Bind9
 Chọn Menu option để thực hiện  tạo option cho Bind9
 
 ![alt text][BIND9_OPTION]
+
 [BIND9_OPTION]: https://github.com/octvitasut/fDNS/blod/master/common/images/bind9_options.png "Bind9 Option"
 
 - Option Name: tên các option trong Bind9
@@ -101,12 +107,14 @@ Chọn Menu option để thực hiện  tạo option cho Bind9
 Cấu hình control cho Bind9 (cấu hình remote bằng rndc)
 
 ![alt text][RNDC_CONTROL]
+
 [RNDC_CONTROL]: https://github.com/octvitasut/fDNS/blod/master/common/images/rndc_control.png "rndc control"
 
 Vào Menu Operations => Chọn Add new để thêm config về rndc.
 Ghi chú: Cấu hình phải tương ứng với cấu hình của rndc trong file /etc/rndc.conf
 
 ![alt text][RNDC_CONFIG]
+
 [RNDC_CONFIG]: https://github.com/octvitasut/fDNS/blod/master/common/images/rndc_config.png "rndc config"
 
 Cấu hình của rndc:
@@ -117,11 +125,13 @@ Cấu hình của rndc:
 
 Cấu hình statistic cho Bind9
 ![alt text][STATISTIC]
+
 [STATISTIC]: https://github.com/octvitasut/fDNS/blod/master/common/images/statistic.png "statistic"
 
 Vào Menu Operations => Statistics => Chọn Add new để thêm config về statistic
 
 ![alt text][STATISTIC_CONFIG]
+
 [STATISTIC_CONFIG]: https://github.com/octvitasut/fDNS/blod/master/common/images/statistic_config.png "statistic config"
 
 Cấu hình của statsitic
