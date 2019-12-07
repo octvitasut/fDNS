@@ -54,7 +54,8 @@ Account và password là tài khoản super admin được tạo ra khi cà
 Thêm, sửa, xóa zones, domains trên portal giám sát
 - Thêm zone mới:
 ![alt text][PORTAL]
-[PORTAL]: https://github.com/octvitasut/fDNS/common/images/portal.png "Màn hình login portal giám sát"
+
+[PORTAL]: https://github.com/octvitasut/fDNS/blob/master/common/images/portal.png "Màn hình login portal giám sát"
 
 - Thêm domain (record) trong zone đã tạo:
 Thêm ACL List
