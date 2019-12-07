@@ -61,12 +61,12 @@ Account và password là tài khoản super admin được tạo ra khi cà
 Vào Zone trong Menu,  chọn *Add New* để thêm zone
 ![alt text][ZONE_PANNEL]
 
-[ZONE_PANNEL]: https://github.com/octvitasut/fDNS/blob/master/common/images/zones_panel.png "Add new zone"
+[ZONE_PANNEL]: https://github.com/octvitasut/fDNS/blob/master/common/images/zones_panel.PNG "Add new zone"
 
 
 ![alt text][ADD_ZONE]
 
-[ADD_ZONE]: https://github.com/octvitasut/fDNS/blob/master/common/images/add_zone.png "Add new zone"
+[ADD_ZONE]: https://github.com/octvitasut/fDNS/blob/master/common/images/add_zone.PNG "Add new zone"
 
 **Cấu hình add_zones:**
 
@@ -83,21 +83,21 @@ Sau khi tạo Zones cần thêm các bản ghi cho Zones (Yêu cầu có SOA rec
 
 ![alt text][CREATE_RECORD]
 
-[CREATE_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/create_zone_record.png "Add record"
+[CREATE_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/create_zone_record.PNG "Add record"
 
 > **Bản ghi SOA:**
 > 
 > ![alt text][SOA_RECORD]
 
-> [SOA_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/SOA_record.png "SOA"
+> [SOA_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/SOA_record.PNG "SOA"
 > 
-> Master Server: Tên của master dns server (để trống để lấy mặc định tên zone)
-> Email Address: Email
-> Refresh:
-> Retry:
-> Expire:
-> TTL:
-> Append domain (chèn tên zone đằng sau master server.)
+> Master Server: Tên của master dns server (để trống để lấy mặc định tên zone) <br>
+> Email Address: Email <br>
+> Refresh: <br>
+> Retry: <br>
+> Expire: <br>
+> TTL: <br>
+> Append domain (chèn tên zone đằng sau master server.) <br>
 
 
 > **Bản ghi NS:**
@@ -105,22 +105,22 @@ Sau khi tạo Zones cần thêm các bản ghi cho Zones (Yêu cầu có SOA rec
 >  
 > ![alt text][NS_RECORD]
 
-> [NS_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/NS_record.png "NS"
+> [NS_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/NS_record.PNG "NS"
 > 
 > 
-> Record: Để trống
-> TTL
-> Class: Chọn IN
-> Value: Tên của name server (Ví dụ ns1)
-> Append domain: Chọn No
-> Status: Active
+> Record: Để trống <br>
+> TTL <br>
+> Class: Chọn IN <br>
+> Value: Tên của name server (Ví dụ ns1) <br>
+> Append domain: Chọn No <br>
+> Status: Active <br>
 > 
-> Nhấn Validate để tạo NS record
-> Chọn submit để xác nhận
-> 
+> Nhấn Validate để tạo NS record <br>
+> Chọn submit để xác nhận <br>
+>  
 > ![alt text][SUBMIT]
 
-> [SUBMIT]: https://github.com/octvitasut/fDNS/blob/master/common/images/submit.png "SUBMIT"
+> [SUBMIT]: https://github.com/octvitasut/fDNS/blob/master/common/images/submit.PNG "SUBMIT"
 
 
 > **Bản ghi A:**
@@ -128,23 +128,23 @@ Sau khi tạo Zones cần thêm các bản ghi cho Zones (Yêu cầu có SOA rec
 >  
 > ![alt text][A_RECORD]
 
-> [A_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/A_record.png "NS"
+> [A_RECORD]: https://github.com/octvitasut/fDNS/blob/master/common/images/A_record.PNG "NS"
 > 
-> **Yêu cầu**: Thêm một bản ghi A cho NS server cấu hình từ NS record
+> **Yêu cầu**: Thêm một bản ghi A cho NS server cấu hình từ NS record <br>
 > 
-> Record: Tên domain name (ví dụ ns1 và jira)
-> TTL
-> Class: Chọn IN
-> Value: Địa chỉ IP của domain
-> Append domain: Chọn No
-> Status: Active
+> Record: Tên domain name (ví dụ ns1 và jira) <br>
+> TTL <br>
+> Class: Chọn IN <br>
+> Value: Địa chỉ IP của domain <br>
+> Append domain: Chọn No <br>
+> Status: Active <br>
 > 
-> Nhấn Validate để tạo NS record
-> Chọn submit để xác nhận
+> Nhấn Validate để tạo NS record <br>
+> Chọn submit để xác nhận <br>
 > 
 > ![alt text][SUBMIT2]
 
-> [SUBMIT2]: https://github.com/octvitasut/fDNS/blob/master/common/images/submit2.png "SUBMIT2"
+> [SUBMIT2]: https://github.com/octvitasut/fDNS/blob/master/common/images/submit2.PNG "SUBMIT2"
 
 
 Sau khi tạo xong, vào mục config -> Server
